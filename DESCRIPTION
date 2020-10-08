@@ -1,0 +1,35 @@
+Package: kittens
+Title: Model Development & Data Exploratory Toolkit 
+Version: 0.1.0
+Repository: arrowhead
+Authors@R: 
+    person(given = "Data Science",
+           family = "Arrowhead",
+           role = c("aut", "cre"),
+           email = "datasciencehelp@arrowheadgrp.com"
+          )
+Description: This package is created to help the data science team at Arrowhead work more efficiently. This package include analytical functions including: modeling, exploring, and data manipulation.
+License: file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+  magrittr,
+  DBI, 
+  broom, 
+  digest, 
+  dplyr, 
+  htmltools, 
+  knitr,
+  lubridate,
+  magick,
+  odbc, 
+  pins, 
+  purrr,
+  tidyselect,
+  ggplot2,
+  RPostgres,
+  tidyverse,
+  testthat
+Suggests: 
+  testthat (>= 2.1.0)
+RoxygenNote: 7.1.0
